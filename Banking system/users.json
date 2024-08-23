@@ -1,0 +1,68 @@
+{
+    "users": [
+        {
+            "card_type": "AmericaBank",
+            "account_number": "000001",
+            "name": "John Doe",
+            "balance": 330.0,
+            "password": "superPassword",
+            "transactions": [
+                {
+                    "date": "2024-08-22T19:39:45.404895",
+                    "from_account": "000001",
+                    "to_account": "000002",
+                    "amount": 100.0
+                },
+                {
+                    "date": "2024-08-22T20:05:30.892956",
+                    "from_account": "000001",
+                    "to_account": "000002",
+                    "amount": 500.0
+                },
+                {
+                    "date": "2024-08-23T00:28:21.785501",
+                    "from_account": "000001",
+                    "to_account": "000002",
+                    "amount": 100.0
+                }
+            ],
+            "phone_number": 43801108,
+            "address": "random st, random house"
+        },
+        {
+            "card_type": "CanadaBank",
+            "account_number": "000002",
+            "name": "Bob Maguire",
+            "balance": 2670.0,
+            "password": "password456",
+            "transactions": [
+                {
+                    "date": "2024-08-22T19:39:45.404895",
+                    "from_account": "000001",
+                    "to_account": "000002",
+                    "amount": 100.0
+                },
+                {
+                    "date": "2024-08-22T20:05:30.892956",
+                    "from_account": "000001",
+                    "to_account": "000002",
+                    "amount": 500.0
+                },
+                {
+                    "date": "2024-08-23T00:28:21.785501",
+                    "from_account": "000001",
+                    "to_account": "000002",
+                    "amount": 100.0
+                }
+            ]
+        },
+        {
+            "card_type": "BelguimBank",
+            "account_number": "000003",
+            "name": "Armen",
+            "balance": 0.0,
+            "password": "password789",
+            "transactions": []
+        }
+    ]
+}
